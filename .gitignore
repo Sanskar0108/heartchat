@@ -1,0 +1,55 @@
+# Flutter-specific
+.packages
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android-specific
+android/.gradle
+android/local.properties
+android/key.properties
+android/build/
+android/.gradle/
+android/gradle-wrapper.jar
+
+# iOS-specific
+ios/Pods/
+ios/Podfile.lock
+ios/Flutter/Generated.xcconfig
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/flutter_export_environment.sh
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# General
+*.iml
+*.log
+.env
+.env.local
+dist/
+build/
+*.jks
+*.keystore
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Environment
+.env
+*.pem
+*.p8
+*.p12
+
+# Misc
+.dart_tool/
+.packages
+pubspec.lock
